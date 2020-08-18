@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang = "en" class ="browser">
 <div class="main">
     <head>
         <style type="text/css">
@@ -10,21 +10,21 @@
 
             h1 {
                 color: black;
-                font-family: Calibri;
+                font-family: Arial;
                 font-size: 40px;
                 text-align: center;
             }
             
             h3 {
                 color: black;
-                font-family: Calibri;
+                font-family: Arial;
                 font-size: 20px;
                 text-align: center;
             }
 
             p {
                 color: black;
-                font-family: Calibri;
+                font-family: Arial;
                 font-size: 16px;
             }
 
@@ -32,35 +32,59 @@
                 text-align: center;
             }
 
-            .john {
+            .navigation {
                 text-align: center;
+                font-family: Arial;
+                font-size: 16px;
             }
         </style>
-        <title>John Banda</title>        
+        <title>John Zizikani Banda</title>        
     </head>
-    <!--CHANGE FILE NAME TO INDEX · -->
+
     <body>
         <div style = "position: absolute; top:5px; left: 1100px;">
-            <img src="JohnPicture.png" width=auto height=275 alt="John Picture"> 
+            <img src="JohnPicture.png" width=auto height=300 alt="John Picture"> 
         </div>
-        <section class="header">
-            <h1>John Zizikani Banda</h1>
-            <h3>Graduate Software Developer</h3>
-            <ul class = "social">
-                <a href="https://www.linkedin.com/in/john-zizikani-banda-079626154/" target = "blank">
-                    <img src = "LinkedIn.png" width = "40" height = "auto" alt = "LinkedIn Icon">
-                </a>
-                
-                <a href ="https://github.com/johnZbanda" target = "blank">
-                    <img src = "GithubIcon.png" width = "40" height = "auto" alt = "GitHub Icon">
-                </a>                
-            </ul>
-            <br>
-            <hr>    
+        <header id = "home" style = "height: 663px">
+            <nav>
+                <ul class = "navigation">
+                    <a href = #home>Home</a>
+                    <a href = #profile>Profile</a>              
+                    <a href = #skills>Skills</a>
+                    <a href = #projects>Projects</a>
+                </ul>
+            </nav>
+
+            <div class = "center">
+                <h1>John Zizikani Banda</h1>
+                <h3>Graduate Software Developer</h3>
+                <ul class = "social">
+                    <a href="https://www.linkedin.com/in/john-zizikani-banda-079626154/">
+                        <img src = "LinkedIn.png" width = "40" height = "auto" alt = "LinkedIn Icon">        
+                    </a>
+                    <a href ="https://github.com/johnZbanda">
+                        <img src = "GithubIcon.png" width = "40" height = "auto" alt = "GitHub Icon">
+                    </a>
+                </ul>
+            </div>
         <!--try put on the same line as the text-->
         <!--contact details at the bottom possibly-->
-        </section>
+         </header>
         
+        <section class = "profile">
+            <a name = "profile"></a>
+            <h1>PROFILE</h1>
+        </section>
+
+        <section class = "skills">
+            <a name = "skills"></a>
+            <h1>SKILLS</h1>
+        </section>
+
+        <section class = "projects">
+            <a name = "projects"></a>
+            <h1>PROJECTS</h1>
+        </section>
         <!-- Write a description about yourself here-->
     </body>
 </div>
