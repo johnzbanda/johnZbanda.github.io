@@ -10,9 +10,6 @@
     </head>
 
     <body>
-        <div style = "position: absolute; top:5px; left: 1100px;">
-            <img src="JohnPicture.png" width=auto height=300 alt="John Picture"> 
-        </div>
         <header id = "home" style = "height: 663px">
             <nav>
                 <ul class = "navigation">
@@ -20,21 +17,24 @@
                     <a href = #profile>Profile</a>              
                     <a href = #skills>Skills</a>
                     <a href = #projects>Projects</a>
+                    <a href = #contact>Contact Me</a>
                 </ul>
             </nav>
 
-            <div class = "center">
-                <h1>John Zizikani Banda</h1>
-                <h3>Graduate Software Developer</h3>
-                <ul class = "social">
-                    <a href="https://www.linkedin.com/in/john-zizikani-banda-079626154/">
-                        <img src = "LinkedIn.png" width = "40" height = "auto" alt = "LinkedIn Icon">        
-                    </a>
-                    <a href ="https://github.com/johnZbanda">
-                        <img src = "GithubIcon.png" width = "40" height = "auto" alt = "GitHub Icon">
-                    </a>
-                </ul>
-            </div>
+            <ul class = "name">
+                <h1>JOHN ZIZIKANI BANDA</h1>
+                <h3>Graduate Software Developer</h3>    
+            </ul>
+            
+            <ul class = "social">
+                <a href="https://www.linkedin.com/in/john-zizikani-banda-079626154/">
+                    <img src = "LinkedIn.png" width = "40" height = "auto" alt = "LinkedIn Icon">        
+                </a>
+                <a href ="https://github.com/johnZbanda">
+                    <img src = "GithubIcon.png" width = "40" height = "auto" alt = "GitHub Icon">
+                </a>
+            </ul>
+
         <!--try put on the same line as the text-->
         <!--contact details at the bottom possibly-->
          </header>
@@ -43,13 +43,15 @@
             <a name = "profile"></a>
             <h1>PROFILE</h1>
             <!--make this in a block-->
-            <p>
+            <ul class = "profileText">
                 I am currently a University of Liverpool graduate with a 2:1 degree in Computer Science with Software Development.
                 I aspire to succeed in as a software developer, becoming fluent and even more competent programmer.
                 I have a strong determination to solving problems and challenges in a creative/innovative manner.
                 I also have a strong interest in software, game and app development.
-            </p>
-            
+            </ul>
+            <div style = "position: absolute; top:700px; left: 1000px;">
+                <img src="JohnPicture.png" width=auto height=420 alt="John Picture"> 
+            </div>  
         </section>
 
         <section class = "skills">
@@ -60,6 +62,11 @@
         <section class = "projects">
             <a name = "projects"></a>
             <h1>PROJECTS</h1>
+        </section>
+
+        <section class = "contact">
+            <a name = "contact"></a>
+            <h1>CONTACT ME</h1>
         </section>
         <!-- Write a description about yourself here-->
     </body>
