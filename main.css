@@ -53,6 +53,10 @@ p {
     margin-left: 50px;
 }
 
+.profileText div {
+    position: relative;
+}
+
 
   .circle{
     position: absolute;
