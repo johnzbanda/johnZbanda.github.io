@@ -1,5 +1,6 @@
 * {
     font-family: Arial;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,10 @@ h1 {
     font-weight: bold;
 }
 
+h1 div {
+    position: relative;
+}
+
 h3 {
     color: black;
     font-size: 22px;
@@ -20,12 +25,14 @@ h3 {
     font-weight: bold;
 }
 
+h3 div {
+  position: relative;
+}
+
 p {
     color: black;
     font-size: 24px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
     margin-right: 125px;
     margin-left: 125px;
 }
@@ -133,3 +140,38 @@ p {
       transform: scale(0.8);
     }
   }
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 2px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(255, 187, 0);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type = submit] :hover {
+  background-color: green;
+}

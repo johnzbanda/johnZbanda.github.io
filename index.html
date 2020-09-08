@@ -15,7 +15,7 @@
                 <div class='circle xxlarge shade1'></div>
                 <div class='circle xlarge shade2'></div>
                 <div class='circle large shade3'></div>
-                <div class='circle mediun shade4'></div>
+                <div class='circle medium shade4'></div>
                 <div class='circle small shade5'></div>
             </div>
             
@@ -30,8 +30,8 @@
             </nav>
 
             <ul class = "name">
-                <h1>JOHN ZIZIKANI BANDA</h1>
-                <h3>Graduate Software Developer</h3>    
+                <h1><div>JOHN ZIZIKANI BANDA</div></h1>
+                <h3><div>GRADUATE SOFTWARE DEVELOPER</div></h3>    
             </ul>
             
             <ul class = "social">
@@ -53,7 +53,7 @@
             <!--make this in a block-->
             <ul class = "profileText">
                 <div>
-                    I am currently a University of Liverpool graduate with a 2:1 degree in Computer Science with Software Development.
+                    I am a University of Liverpool graduate with a 2:1 degree in Computer Science with Software Development.
                     I aspire to succeed in as a software developer, becoming fluent and even more competent programmer.
                     I have a strong determination to solving problems and challenges in a creative/innovative manner.
                     I also have a strong interest in software, game and app development.    
@@ -77,6 +77,26 @@
         <section class = "contact">
             <a name = "contact"></a>
             <h1>CONTACT ME</h1>
+            <div class = "row">
+                <div class = "column">
+                    <h3>GET IN TOUCH</h3>
+                    <p>johnzkbanda@gmail.com</p>
+                    <p>UK, London</p>
+                </div>
+                <div class = "column">
+                    <form action = "mailto:johnzkbanda@gmail.com?subject=subject" method = "post" enctype = "text/plain">
+                        <label for = "fname">Name (required)</label>
+                        <input type = "text" id = "fname" name = "firstname" placeholder = "Your name...">
+                        <label for = "email">Email (required)</label>
+                        <input type = "text" id = "email" name = "email" placeholder = "Your Email">
+                        <label for = "subject">Subject (required)</label>
+                        <input type = "text" id = "subject" name = "subject" placeholder = "Subject">
+                        <label for = "message">Message (required)</label>
+                        <input type = "text" id = "message" name = "message" placeholder = "Type your message here">
+                        <input type = "submit" value = "Submit">
+                    </form>
+                </div>
+            </div>
         </section>
         <!-- Write a description about yourself here-->
     </body>
