@@ -40,6 +40,10 @@ p {
     margin-top: 15px;
 }
 
+.social div {
+  position: relative;
+}
+
 .skills {
 	text-align: center;
 	margin-top: 15px;
