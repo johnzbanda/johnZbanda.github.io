@@ -40,6 +40,11 @@ p {
     margin-top: 15px;
 }
 
+.skills {
+	text-align: center;
+	margin-top: 15px;
+}
+
 .navigation {
     text-align: center;
     font-size: 24px;
@@ -157,6 +162,12 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.columnSkills {
+	display: inline-block;
+	width: 15%;
+	padding: 5px;
 }
 
 input[type=text], select, textarea {
