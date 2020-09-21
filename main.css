@@ -12,9 +12,6 @@ h1 {
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-}
-
-h1 div {
     position: relative;
 }
 
@@ -23,11 +20,8 @@ h3 {
     font-size: 22px;
     text-align: center;
     font-weight: bold;
-}
-
-h3 div {
-  position: relative;
-}
+    position: relative;
+} 
 
 p {
     color: black;
