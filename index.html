@@ -7,7 +7,8 @@
         <meta charset = "UTF-8">
         <meta name = "description" content>
         <meta name = "keywords" content>
-        <link rel = "stylesheet" type = "text/css" href = "main.css">  
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        
     </head>
 
     <body>
@@ -136,8 +137,27 @@
             <a name = "projects"></a>
             <h1><div>PROJECTS</div></h1>
             <p style = "font-weight: bold; color: red;">Projects are currently being added.</p>
+
+            <!--Add a Carousel here-->
+            <div class = "carousel">
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!--Don't forget to add more dots when adding more projects-->
+                <div style="text-align:center"> 
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+            <script type = "text/javascript" src = "scripts/carouselScript.js"></script>
+            
         </section>
 
+        
+        <div id = "contacts"></div>
         <section class = "contact">
             <a name = "contact"></a>
             <h1><div>CONTACT ME</div></h1>
