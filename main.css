@@ -258,6 +258,7 @@ img {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-top: 2%;
 }
 
 .active, .dot:hover {
@@ -280,4 +281,27 @@ img {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.carousel div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel div p {
+ font-size: 20px;
+ margin-left: 20%;
+ margin-right: 20%;
+}
+
+.carousel div h1 {
+  text-decoration: underline;
+}
+
+.carousel div a {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
 }
