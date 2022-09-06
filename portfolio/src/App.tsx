@@ -291,9 +291,9 @@ export const HtmlPage = function () {
 
           {/* <!--Don't forget to add more dots when adding more projects--> */}
           <div style={{ textAlign: "center" }}>
+            <span className="dot" onClick={() => currentSlide(0)}></span>
             <span className="dot" onClick={() => currentSlide(1)}></span>
             <span className="dot" onClick={() => currentSlide(2)}></span>
-            <span className="dot" onClick={() => currentSlide(3)}></span>
           </div>
         </div>
 
@@ -364,7 +364,7 @@ export const HtmlPage = function () {
   );
 };
 
-let slideIndex = 1;
+let slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -381,11 +381,12 @@ function showSlides(n: number) {
   let i;
   let slides = document.getElementsByClassName("myCarousel");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {
-    slideIndex = 1;
+
+  if (n >= slides.length) { //if slides are above max number, go back to first project
+    slideIndex = 0;
   }
 
-  if (n < 1) {
+  if (n < 0) {
     slideIndex = slides.length;
   }
 
@@ -398,7 +399,7 @@ function showSlides(n: number) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  // const slideDisplay = slides[slideIndex - 1] as HTMLElement;
-  // slideDisplay.style.display = "block";
-  // dots[slideIndex - 1].className += " active";
+  const slideDisplay = slides[slideIndex] as HTMLElement; //currently as undefined
+  slideDisplay.style.display = "block";
+  dots[slideIndex].className += " active"
 }
