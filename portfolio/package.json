@@ -44,6 +44,7 @@
   "devDependencies": {
     "json5": "^2.2.3",
     "loader-utils": "^3.2.1",
-    "nth-check": "^2.1.1"
+    "nth-check": "^2.1.1",
+    "webpack": "^5.86.0"
   }
 }
